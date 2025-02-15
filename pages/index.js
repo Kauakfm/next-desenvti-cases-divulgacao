@@ -1,8 +1,12 @@
+import Link from "../src/components/Link"
+
 export default function HomePage() {
   return (
     <div>
       <h1>Desenvti cases - Home</h1>
-      <a href="/faq">Ir para o faq</a>
+      <Link href={"/faq"}>
+        Ir para a pagina do faq
+      </Link>
     </div>
   )
 }
