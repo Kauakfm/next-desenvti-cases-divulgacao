@@ -1,10 +1,9 @@
-import GlobalStyle from "../src/components/theme/GlobalStyle"
+import GlobalStyle from "../src/theme/GlobalStyle"
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle />
-      Teste de componente middleware
       <Component {...pageProps} />
     </>
   )
